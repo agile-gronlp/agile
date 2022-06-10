@@ -57,5 +57,5 @@ word: εἱμάτιον       lemma: ἱμάτιον
 The lexicon lookup can be disabled by setting the `use_lexicon` parameter of the `lemmatize` function to `False`.
 
 ## Acknowledgements
-The `lexicon.p` used is extracted from a XML edition with composed Unicode of the LSJ, as transformed by [Giuseppe G. A. Celano](https://github.com/gcelano/LSJ_GreekUnicode) under license CC BY-NC-SA 3.0. The original text [is] provided under a CC BY-SA license by Perseus Digital Library, http://www.perseus.tufts.edu, with funding from The National Endowment for the Humanities.
+The `lexicon.p` used is extracted from a XML edition with composed Unicode of the LSJ, as transformed by [Giuseppe G. A. Celano](https://github.com/gcelano/LSJ_GreekUnicode). The original text [is] provided under a CC BY-SA license by Perseus Digital Library, http://www.perseus.tufts.edu, with funding from The National Endowment for the Humanities.
 Data accessed from https://github.com/PerseusDL/lexica/.
