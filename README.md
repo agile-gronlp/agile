@@ -11,7 +11,7 @@ git clone https://github.com/agile-gronlp/agile
 ```
 
 ### 2. Install dependencies
-AGILe supports Python 3.7 or later. To install all required dependencies, simply run:
+AGILe supports Python 3.7 or later on POSIX–compliant operating systems. To install all required dependencies, simply run:
 
 ```
 cd agile
