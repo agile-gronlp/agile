@@ -2,7 +2,7 @@
 # AGILe: Ancient Greek Inscriptions Lemmatizer
 AGILe is a lemmatizer for Ancient Greek inscriptions developed at the University of Groningen. Details can be found in:
 
-de Graaf, E., Stopponi, S., Bos, J., Peels-Matthey, S. & Nissim, M. (2022). AGILe: The First Lemmatizer for Ancient Greek Inscriptions. Proceedings of the 13th Language Resources and Evaluation Conference (LREC 2022), forthcoming.
+de Graaf, E., Stopponi, S., Bos, J., Peels-Matthey, S. & Nissim, M. (2022). AGILe: The First Lemmatizer for Ancient Greek Inscriptions. Proceedings of the 13th Conference on Language Resources and Evaluation (LREC 2022), Marseille, 20-25 June 2022. pp. 5334–5344. http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.571.pdf
 
 ## Installation
 ### 1. Clone this repository
