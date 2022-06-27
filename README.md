@@ -2,7 +2,7 @@
 # AGILe: Ancient Greek Inscriptions Lemmatizer
 AGILe is a lemmatizer for Ancient Greek inscriptions developed at the University of Groningen. Details can be found in:
 
-de Graaf, E., Stopponi, S., Bos, J., Peels-Matthey, S. & Nissim, M. (2022). AGILe: The First Lemmatizer for Ancient Greek Inscriptions. Proceedings of the 13th Conference on Language Resources and Evaluation (LREC 2022), Marseille, 20-25 June 2022. pp. 5334–5344. http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.571.pdf
+de Graaf, E., Stopponi, S., Bos, J., Peels-Matthey, S. & Nissim, M. (2022). AGILe: The First Lemmatizer for Ancient Greek Inscriptions. Proceedings of the 13th Conference on Language Resources and Evaluation (LREC 2022), Marseille, 20-25 June 2022. pp. 5334–5344. [http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.571.pdf](http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.571.pdf)
 
 ## Installation
 ### 1. Clone this repository
@@ -62,3 +62,18 @@ Data accessed from https://github.com/PerseusDL/lexica/.
 
 ## License
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+
+## BibTex
+```
+@inproceedings{deGraafetal2022,
+	title = {{AGILe: The First Lemmatizer for Ancient Greek Inscriptions}},
+	author = {Evelien de Graaf and Silvia Stopponi and Jasper Bos and Saskia Peels-Matthey and Malvina Nissim},
+	booktitle = {Proceedings of the 13th Conference on Language Resources and Evaluation (LREC 2022)},
+	year = {2022},
+	editor = {Nicoletta Calzolari and Frédérid Béchet and Philippe Blache and Khalid Choukri and Christopher Cieri and Thierry Declerck and Sara Goggi and Hitoshi Isahara and Bente Maegaard and Joseph Mariani and Hélène Manzo and Jan Odijk and Stelios Piperidis},
+	month = {June},
+	address = {Marseille, France},
+	publisher = {{European Language Resources Association (ELRA)}},
+	pages = {5334–-5344}
+}
+```
