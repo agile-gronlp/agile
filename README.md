@@ -65,15 +65,15 @@ Data accessed from https://github.com/PerseusDL/lexica/.
 
 ## BibTex
 ```
-@inproceedings{deGraafetal2022,
-	title = {{AGILe: The First Lemmatizer for Ancient Greek Inscriptions}},
-	author = {Evelien de Graaf and Silvia Stopponi and Jasper Bos and Saskia Peels-Matthey and Malvina Nissim},
-	booktitle = {Proceedings of the 13th Conference on Language Resources and Evaluation (LREC 2022)},
-	year = {2022},
-	editor = {Nicoletta Calzolari and Frédérid Béchet and Philippe Blache and Khalid Choukri and Christopher Cieri and Thierry Declerck and Sara Goggi and Hitoshi Isahara and Bente Maegaard and Joseph Mariani and Hélène Manzo and Jan Odijk and Stelios Piperidis},
-	month = {June},
-	address = {Marseille, France},
-	publisher = {{European Language Resources Association (ELRA)}},
-	pages = {5334–-5344}
+@InProceedings{degraaf-EtAl:2022:LREC,
+  author    = {de Graaf, Evelien  and  Stopponi, Silvia  and  Bos, Jasper K.  and  Peels-Matthey, Saskia  and  Nissim, Malvina},
+  title     = {AGILe: The First Lemmatizer for Ancient Greek Inscriptions},
+  booktitle      = {Proceedings of the Language Resources and Evaluation Conference},
+  month          = {June},
+  year           = {2022},
+  address        = {Marseille, France},
+  publisher      = {European Language Resources Association},
+  pages     = {5334--5344},
+  url       = {https://aclanthology.org/2022.lrec-1.571}
 }
 ```
