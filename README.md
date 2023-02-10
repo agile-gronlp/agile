@@ -56,6 +56,9 @@ word: εἱμάτιον       lemma: ἱμάτιον
 ```
 The lexicon lookup can be disabled by setting the `use_lexicon` parameter of the `lemmatize` function to `False`.
 
+## Interactive Notebook
+If you want to try AGILe without downloading it: https://colab.research.google.com/drive/171e3_OG9eiZi4opNINOU_umCVg97TMtq?usp=share_link
+
 ## Acknowledgements
 The `lexicon.p` used is extracted from a XML edition with composed Unicode of the LSJ, as transformed by [Giuseppe G. A. Celano](https://github.com/gcelano/LSJ_GreekUnicode). The original text [is] provided under a CC BY-SA license by Perseus Digital Library, http://www.perseus.tufts.edu, with funding from The National Endowment for the Humanities.
 Data accessed from https://github.com/PerseusDL/lexica/.
