@@ -32,9 +32,9 @@ def lemmatize(text, use_lexicon=True):
     processed_text = re.sub('(Φς)|(Φσ)', 'Ψ', processed_text)
     processed_text = re.sub(' [|∣·∙∶:,.⁝⋮⁞⁙“”]+', '', processed_text)
 
-    lemma_nlp = stanza.Pipeline(lang='grc', processors='tokenize,lemma', tokenize_no_ssplit=True,
+    lemma_nlp = stanza.Pipeline(lang='grc', processors='tokenize,lemma', tokenize_pretokenized=True,
                                 lemma_model_path='grc_agile_lemmatizer.pt', verbose=False)
-    token_nlp = stanza.Pipeline(lang='grc', processors='tokenize', tokenize_no_ssplit=True, verbose=False)
+    token_nlp = stanza.Pipeline(lang='grc', processors='tokenize', tokenize_pretokenized=True, verbose=False)
     token_dict = token_nlp(original_text).to_dict()[0]  # Dict for all tokens (lemmas to be inserted)
     lemma_dict = lemma_nlp(processed_text).to_dict()[0]  # Dict for lemmas given by model
     lexicon = pickle.load(open("lexicon.p", "rb"))
