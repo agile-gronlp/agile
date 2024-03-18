@@ -11,6 +11,8 @@ git clone https://github.com/agile-gronlp/agile
 ```
 
 ### 2. Install dependencies
+AGILe works with **version 1.0.21 of the CLTK**. If you are using a more recent version of the CLTK, please install the required packages in a virtual environment.
+
 AGILe supports Python 3.7 or later on POSIX–compliant operating systems. To install all required dependencies, simply run:
 
 ```
