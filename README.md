@@ -49,8 +49,22 @@ Below is an example of performing lemmatization on a short inscription:
 
 This demo gives the following output:
 ```
-TODO: add output
+word: αἲξ            lemma: αἴξ
+word: θύεται         lemma: μετά
+word: τάδε           lemma: ὅδε
+word: μὴ             lemma: μή
+word: ἐσφέρεν        lemma: εἰσφέρω
+word: ἐς             lemma: εἰς
+word: τὸ             lemma: ὁ
+word: τέμενος        lemma: τέμενος
+word: τοῦ            lemma: ποῦ
+word: Ἀπόλλωνος      lemma: Ἀπολλωνία
+word: τοῦ            lemma: ποῦ
+word: Οὐλίου         lemma: ξύλον
+word: εἱμάτιον       lemma: εἱμάτιον
 ```
+N.B. Adding the lemmtization of particles and articles improved the lemmatization of such items, but also brought new errors.
+
 The lexicon lookup can be disabled by setting the `use_lexicon` parameter of the `lemmatize` function to `False`.
 
 ## Interactive Notebook on Google Colab
