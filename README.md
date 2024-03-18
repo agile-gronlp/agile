@@ -61,7 +61,7 @@ word: τοῦ            lemma: ποῦ
 word: Ἀπόλλωνος      lemma: Ἀπολλωνία
 word: τοῦ            lemma: ποῦ
 word: Οὐλίου         lemma: ξύλον
-word: εἱμάτιον       lemma: εἱμάτιον
+word: εἱμάτιον       lemma: ἱμάτιον
 ```
 N.B. Adding the lemmtization of particles and articles improved the lemmatization of such items, but also brought new errors.
 
