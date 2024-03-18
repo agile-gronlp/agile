@@ -56,7 +56,7 @@ word: εἱμάτιον       lemma: ἱμάτιον
 ```
 The lexicon lookup can be disabled by setting the `use_lexicon` parameter of the `lemmatize` function to `False`.
 
-## Interactive Notebook
+## Interactive Notebook on Google Colab
 If you want to try AGILe without downloading it: https://colab.research.google.com/drive/171e3_OG9eiZi4opNINOU_umCVg97TMtq?usp=share_link
 
 ## Acknowledgements
