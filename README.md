@@ -4,17 +4,16 @@ AGILe is a lemmatizer for Ancient Greek inscriptions developed at the University
 
 de Graaf, E., Stopponi, S., Bos, J., Peels-Matthey, S. & Nissim, M. (2022). AGILe: The First Lemmatizer for Ancient Greek Inscriptions. Proceedings of the 13th Conference on Language Resources and Evaluation (LREC 2022), Marseille, 20-25 June 2022. pp. 5334–5344. [http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.571.pdf](http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.571.pdf)
 
-**This branch contains an experimental, new version of AGILe, trained on more data and with an augmented lexicon:** 
+**This branch contains a new version of AGILe trained on more inscriptions and with an augmented lexicon:** 
 - the initial CGRN training data has been augmented with the new 25 inscriptions recently added to the corpus;
-- all particles and articles have been lemmatized, partly automatically (the non-ambiguous word forms) partly manually (all remaining forms in CGRN 1-123 + 248 + 250);
 - the lexicon has been augmented with lemmas from the new 25 CGRN inscriptions.
 
 ## Installation
 ### 1. Clone this branch of the repository in a dedicated folder
 ```
-mkdir agile-particles
-cd agile-particles
-git clone -b particles --single-branch https://github.com/agile-gronlp/agile
+mkdir agile-new25
+cd agile-new25
+git clone -b new25inscr --single-branch https://github.com/agile-gronlp/agile
 ```
 
 ### 2. Install dependencies
@@ -49,22 +48,8 @@ Below is an example of performing lemmatization on a short inscription:
 
 This demo gives the following output:
 ```
-word: αἲξ            lemma: αἴξ
-word: θύεται         lemma: μετά
-word: τάδε           lemma: ὅδε
-word: μὴ             lemma: μή
-word: ἐσφέρεν        lemma: εἰσφέρω
-word: ἐς             lemma: εἰς
-word: τὸ             lemma: ὁ
-word: τέμενος        lemma: τέμενος
-word: τοῦ            lemma: ποῦ
-word: Ἀπόλλωνος      lemma: Ἀπολλωνία
-word: τοῦ            lemma: ποῦ
-word: Οὐλίου         lemma: ξύλον
-word: εἱμάτιον       lemma: ἱμάτιον
+TODO add output
 ```
-N.B. Adding the lemmtization of particles and articles improved the lemmatization of such items, but also brought new errors.
-
 The lexicon lookup can be disabled by setting the `use_lexicon` parameter of the `lemmatize` function to `False`.
 
 ## Interactive Notebook on Google Colab
