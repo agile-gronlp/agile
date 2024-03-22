@@ -7,7 +7,7 @@ de Graaf, E., Stopponi, S., Bos, J., Peels-Matthey, S. & Nissim, M. (2022). AGIL
 **This branch contains an experimental, new version of AGILe, trained on more data and with an augmented lexicon:** 
 - the initial CGRN training data has been augmented with the new 25 inscriptions recently added to the corpus;
 - all particles and articles have been lemmatized, partly automatically (the non-ambiguous word forms) partly manually (all remaining forms in CGRN 1-123 + 248 + 250);
-- the lexicon has been augmented with lemmas from the new 25 CGRN inscriptions.
+- the lexicon has been augmented with the lemmatized particles and lemmas from the new 25 CGRN inscriptions.
 
 ## Installation
 ### 1. Clone this branch of the repository in a dedicated folder
