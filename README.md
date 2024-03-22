@@ -63,7 +63,7 @@ word: τοῦ            lemma: ποῦ
 word: Οὐλίου         lemma: ξύλον
 word: εἱμάτιον       lemma: ἱμάτιον
 ```
-N.B. Adding the lemmtization of particles and articles improved the lemmatization of such items, but also brought new errors.
+N.B. Adding particles and articles to the training data improved the lemmatization of such items, but also brought new errors.
 
 The lexicon lookup can be disabled by setting the `use_lexicon` parameter of the `lemmatize` function to `False`.
 
