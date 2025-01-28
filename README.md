@@ -4,6 +4,9 @@ AGILe is a lemmatizer for Ancient Greek inscriptions developed at the University
 
 de Graaf, E., Stopponi, S., Bos, J., Peels-Matthey, S. & Nissim, M. (2022). AGILe: The First Lemmatizer for Ancient Greek Inscriptions. Proceedings of the 13th Conference on Language Resources and Evaluation (LREC 2022), Marseille, 20-25 June 2022. pp. 5334–5344. [http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.571.pdf](http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.571.pdf)
 
+Peels-Matthey, S., de Graaf, E., Nissim, M., Bos, J. & Stopponi, S. (2024). Automatic lemmatization of ancient Greek inscriptions: A presentation of AGILe. "Journal of epigraphic studies". 7, 2024: 29-50. [https://pure.rug.nl/ws/portalfiles/portal/1054237044/Peels-Matthey_et_al_2024_Automatic_lemmatization_of_Ancient_Greek_inscriptions_-_A_presentationof_AGILe.pdf](https://pure.rug.nl/ws/portalfiles/portal/1054237044/Peels-Matthey_et_al_2024_Automatic_lemmatization_of_Ancient_Greek_inscriptions_-_A_presentationof_AGILe.pdf)
+
+
 ## Installation
 ### 1. Clone this repository
 ```
@@ -81,5 +84,16 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 Inter
   publisher      = {European Language Resources Association},
   pages     = {5334--5344},
   url       = {https://aclanthology.org/2022.lrec-1.571}
+}
+```
+
+```
+@article{peels2024automatic,
+  title={Automatic lemmatization of ancient Greek inscriptions: A presentation of AGILe},
+  author={Peels-Matthey, Saskia and de Graaf, Evelien and Nissim, Malvina and Bos, Jasper and Stopponi, Silvia},
+  journal={Journal of epigraphic studies: 7, 2024},
+  pages={29--50},
+  year={2024},
+  publisher={Fabrizio Serra}
 }
 ```
